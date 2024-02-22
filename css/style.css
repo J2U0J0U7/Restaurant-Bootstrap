@@ -1,11 +1,55 @@
-[class^="col"] {
-    max-height: 200px;
-    border: 1px solid black;
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
 }
 
-.img-fluid{
-    max-height: 100%;
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
 }
-body{
-    background-color: blueviolet;
+
+nav {
+    background-color: #444;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    
+}
+
+.menu-item {
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
