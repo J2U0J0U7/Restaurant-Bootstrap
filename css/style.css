@@ -11,29 +11,11 @@ header {
     text-align: center;
     padding: 1em;
 }
-
-nav {
-    background-color: #444;
-    padding: 1em;
-    text-align: center;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 1em;
-    margin: 0 1em;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-
-
 .container {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: silver;
     
 }
 
